@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" contnt="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Pie Chart with Chart.js</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="key">
+      <ul>
+        <li><a href="http://localhost:8000/2/">Pre Pandemic</a></li>
+        <li><a href="http://localhost:8000/5/">Home</a></li>
+      </ul>
+    </div>a
+  </header>
+
+  <div class="wrapper">
+    <div class="container">
+      <div class="title text-center mb-5">
+        <h1>One Hour On Internet (Post-pandemic)</h1>
+      </div>
+      <div class="chart-wrapper">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+  </div>
+  <table>
+    <tr>
+      <th>Company</th>
+      <th>Before</th>
+      <th>During</th>
+      <th>About</th>
+    </tr>
+    <tr>
+      <td>Instagram</td>
+      <td>16.1%</td>
+      <td>15.3%</td>
+      <td>Instagram was not that heavily affected by the pandemic as the user base switched to Facebook </td>
+    </tr>
+    <tr>
+      <td>Snapchat</td>
+      <td>0.2%</td>
+      <td>1.1%</td>
+      <td>Time spent voice and video calling has grown by more than 5x during late March compared to late February.</td>
+    </tr>
+    <tr>
+      <td>Facebook</td>
+      <td>16.6%</td>
+      <td>23.6%</td>
+      <td>Facebook had the highest amount of spike in the number of users that were active for 1 hour or less  </td>
+    </tr>
+    <tr>
+      <td>Spotify</td>
+      <td>8.9%</td>
+      <td>5.9%</td>
+      <td>Spotify lately experienced a fall in the number of active users by about 43% due to the recent increase in competitors</td>
+    </tr>
+    <tr>
+      <td>WhatsApp</td>
+      <td>29.6%</td>
+      <td>22.8%</td>
+      <td>WhatsApp saw a little drop in the number of active users that used it for an hour or less. </td>
+    </tr>
+    <tr>
+      <td>Twitter</td>
+      <td>7.9%</td>
+      <td>8.8%</td>
+      <td>Twitter saw a slight increase as people becasue more vigilante during the pandemic and hence the activity on Twitter was increased</td>
+    </tr>
+    <tr>
+      <td>LinkedIn</td>
+      <td>0.7%</td>
+      <td>2.7%</td>
+      <td>LinkedIn saw about 4 times increase in the number of active users for one hour category</td>
+    </tr>
+    <tr>
+      <td>TikTok</td>
+      <td>2.3%</td>
+      <td>5.4%</td>
+      <td>TikTok saw twice as many active users for 1 hour category unlike other competitors for short content </td>
+    </tr>
+    <tr>
+      <td>YouTube</td>
+      <td>17.7%</td>
+      <td>14.5%</td>
+      <td>Just like Instagram, TikTok and spotify there is an exponential increase in active users for longer duration</td>
+    </tr>
+  </table>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

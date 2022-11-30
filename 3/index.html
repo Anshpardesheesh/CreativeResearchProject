@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" contnt="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Pie Chart with Chart.js</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="key">
+      <ul>
+        <li><a href="http://localhost:8000/4/">Post Pandemic</a></li>
+        <li><a href="http://localhost:8000/5/">Home</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <div class="container">
+      <div class="title text-center mb-5">
+        <h1>Five Hours On Internet (Pre-pandemic)</h1>
+      </div>
+      <div class="chart-wrapper">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+  </div>
+  <table>
+    <tr>
+      <th>Company</th>
+      <th>Before</th>
+      <th>During</th>
+      <th>About</th>
+    </tr>
+    <tr>
+      <td>Instagram</td>
+      <td>26.6%</td>
+      <td>16.2%</td>
+      <td>Instagram had a great decline in the number of active users when it came for longer durations after the pandemic </td>
+    </tr>
+    <tr>
+      <td>Snapchat</td>
+      <td>1.6%</td>
+      <td>0.6%</td>
+      <td>The stats show that the average number of users who spend longer durations were more before the pandemic</td>
+    </tr>
+    <tr>
+      <td>Facebook</td>
+      <td>3.1%</td>
+      <td>9.2%</td>
+      <td>The app followed a general trend where users seemed to spend less time on facebook before and after the pandemic</td>
+    </tr>
+    <tr>
+      <td>Spotify</td>
+      <td>7.8%</td>
+      <td>12.7%</td>
+      <td>Before the pandemic there were equal amount of people who used spotify for both longer and shorter durations</td>
+    </tr>
+    <tr>
+      <td>WhatsApp</td>
+      <td>40.6%</td>
+      <td>32.9%</td>
+      <td>Whatsapp had more people that spent longer maybe because it has the easiest facility to use either phone or video call overseas</td>
+    </tr>
+    <tr>
+      <td>Twitter</td>
+      <td>3.9%</td>
+      <td>6.9%</td>
+      <td>Before the pandemic users then to spend much less amount of time when compare the the users who spend longer durations after the pandemic</td>
+    </tr>
+    <tr>
+      <td>LinkedIn</td>
+      <td>1.6%</td>
+      <td>0.6%</td>
+      <td>People spend longer duration on the app before the pandemic and much shorter duration after the pandemic</td>
+    </tr>
+    <tr>
+      <td>TikTok</td>
+      <td>2.3%</td>
+      <td>6.4%</td>
+      <td>TikTok saw twice as many active users for 1 hour category unlike other competitors for short content </td>
+    </tr>
+    <tr>
+      <td>YouTube</td>
+      <td>12.5%</td>
+      <td>14.5%</td>
+      <td>Users who spent longer and shorter durations during the pandemic was almost the same</td>
+    </tr>
+  </table>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
